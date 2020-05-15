@@ -51,7 +51,7 @@
 	/* Phisical display size
 	This is the real size in pixel of the display and nothing to do with chip RAM size. */
 	static const int16_t 	TFT_ILI9163C_W 		=		128;
-	static const int16_t 	TFT_ILI9163C_H 		=		128;
+	static const int16_t 	TFT_ILI9163C_H 		=		160;
 	/* Memory Mapped display size
 	Display can be mapped trough it's 132*162 capacity, the following it's just
 	the ILI Ram affected by display, not the display resolution (that normally is 128*128!).

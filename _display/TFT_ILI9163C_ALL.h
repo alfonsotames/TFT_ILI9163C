@@ -31,7 +31,7 @@ void TFT_ILI9163C::_paramInit(uint8_t disp) {
 		case REDPCB_NEW: //------------------------------ Yellow Pin RED pcb
 			//Phisical display size
 			TFT_ILI9163C_W	    =	128;
-			TFT_ILI9163C_H	    =	128;
+			TFT_ILI9163C_H	    =	160;
 			//Memory Mapped display size
 			TFT_ILI9163C_CGR_W	=	128;
 			TFT_ILI9163C_CGR_H	=	160;
@@ -97,7 +97,7 @@ void TFT_ILI9163C::_paramInit(uint8_t disp) {
 		case REDPCB_OLD:
 			//Phisical display size
 			TFT_ILI9163C_W	    =	128;
-			TFT_ILI9163C_H	    =	128;
+			TFT_ILI9163C_H	    =	160;
 			//Memory Mapped display size
 			TFT_ILI9163C_CGR_W	=	128;
 			TFT_ILI9163C_CGR_H	=	160;
@@ -163,10 +163,10 @@ void TFT_ILI9163C::_paramInit(uint8_t disp) {
 		case BLACKPCB_OLD:
 			//Phisical display size
 			TFT_ILI9163C_W	    =	128;
-			TFT_ILI9163C_H	    =	128;
+			TFT_ILI9163C_H	    =	160;
 			//Memory Mapped display size
 			TFT_ILI9163C_CGR_W	=	128;
-			TFT_ILI9163C_CGR_H	=	128;
+			TFT_ILI9163C_CGR_H	=	160;
 			//colorspace
 			TFT_ILI9163C_CSPACE = 1;
 			//Offset (accordly rotation)
